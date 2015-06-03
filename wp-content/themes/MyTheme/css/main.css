@@ -317,7 +317,7 @@ a {
   background-size: cover;
 }
 .PCS0 {
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 50px;
 }
 .PCS0 .PCS1 {
@@ -333,7 +333,16 @@ a {
   margin-top: 3%;
   margin-left: -6%;
 }
-
-#link h3{
-  color:#ffffff;
+.PSCM {
+  background-color: rgba(229, 229, 229, 0.11);
+  margin-bottom: 100px;
+  padding-top: 25px;
+}
+#owl-demo .item {
+  margin: 3px;
+}
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
 }

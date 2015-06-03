@@ -21,6 +21,8 @@
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
         <link rel="stylesheet" href="<?php print THEMEROOT;?>/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="<?php print THEMEROOT;?>/css/main.css">
+        <link rel="stylesheet" href="<?php print THEMEROOT;?>/css/owlcarousel.css">
+        <link rel="stylesheet" href="<?php print THEMEROOT;?>/css/owltheme.css">
         <script src="<?php print THEMEROOT;?>/js/vendor/jquery-1.11.2.min.js"></script>
         <script src="<?php print THEMEROOT;?>/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         

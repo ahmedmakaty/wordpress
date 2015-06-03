@@ -29,5 +29,25 @@ Nulla facilisi. Etiam ac sodales nibh. Vivamus suscipit tempus mi, vitae volutpa
       </div>
 
 
+      <?php if(have_posts()) : ?>
+       <div class="row">
+              <div class="PSCM">
+                <div class="container">
+                  <!-- // Prodcut Style Custom slider  -->
+                  <div class="PSCS col-md-offset-5 col-md-3">
+                  <div id="owl-demo">
+                  <?php while(have_posts()) : the_post(); ?>
+            <div class="item"><img src="<?php print THEMEROOT;?>/img/products/Cimage21.png" alt="Owl Image"></div>
+            		<?php endwhile;?>
+          </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          
+          <!--  -->
+       <?php endif;?>
+
+
 
 <?php get_footer(); ?>

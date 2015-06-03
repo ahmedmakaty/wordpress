@@ -65,12 +65,13 @@
          <?php query_posts( array ( 'category_name' => 'manufactured', 'posts_per_page' => 4 ) );?>
         </div>
         <?php if(have_posts()) : ?>
-        <div class="col-md-8" id="link">
-        <?php while(have_posts()) : the_post();?>
-          <a href="<?php the_permalink();?>"><div class="col-md-3"><img src="<?php print THEMEROOT;?>/img/cimage1.jpg" alt="" href="#">
-            <h3><?php the_title()?></h3>
-          </div></a>
-      <?php endwhile;?>
+        <div class="PSCS col-md-8">
+                  <div id="owl-demo">
+                  <?php while(have_posts()) : the_post(); ?>
+            <div class="item"><img src="<?php print THEMEROOT;?>/img/products/Cimage21.png" alt="Owl Image"></div>
+                <?php endwhile;?>
+          </div>
+                </div>
   <?php endif;?>
          
           </div>

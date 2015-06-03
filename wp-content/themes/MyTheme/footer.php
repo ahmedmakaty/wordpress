@@ -35,26 +35,46 @@
     </div>
   </section>
     </div> <!-- /container -->   
+
+
     <script src="<?php print THEMEROOT;?>/js/vendor/jquery-1.11.2.min.js"></script>     
     <script src="<?php print THEMEROOT;?>/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <script src="<?php print THEMEROOT;?>/js/vendor/wow.min.js"></script>
-    <script type="<?php print THEMEROOT;?>/js/vendor/jquery.sticky.js"></script>
+    <script src="<?php print THEMEROOT;?>/js/vendor/jquery.sticky.js"></script>
+    <script src="<?php print THEMEROOT;?>/js/vendor/bootstrap.min.js"></script>
+    <script src="<?php print THEMEROOT;?>/js/main.js"></script>
+    <script src="<?php print THEMEROOT;?>/js/vendor/owlcarousel.min.js"></script>
+    
        
     	   <!-- wow intialization for animate.css -->
         <script>
           wow = new WOW(
-            {
+          {
             animateClass: 'animated',
             offset:       200,
-            }
-            );
+          }
+          );
           wow.init();
-        </script>
+          </script>
+          <script type="text/javascript">
+          $(document).ready(function() {
+
+            $("#owl-demo").owlCarousel({
+
+            autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+            items : 3,
+            itemsDesktop : [979,3],
+            itemsDesktopSmall : [700,3]
+
+          });
+
+          });
+    </script>
+
         
 
-        <script src="<?php print THEMEROOT;?>/js/vendor/bootstrap.min.js"></script>
-
-        <script src="<?php print THEMEROOT;?>/js/main.js"></script>
+        
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
