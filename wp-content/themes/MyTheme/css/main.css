@@ -33,14 +33,6 @@ body h6 {
   font-size: 1em;
   text-transform: uppercase;
 }
-
-.menubar li a{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 1em;
-  text-transform: uppercase;
-}
-
 body h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -73,7 +65,6 @@ ul {
 li {
   float: left;
   margin-right: 20px;
-  margin-top: 1.7%;
 }
 a {
   color: #333333;
@@ -89,25 +80,15 @@ a {
   margin-top: -18px;
   opacity: 1.5;
 }
-.navbar-right li a:hover {
+.navbar-right li a h6:hover {
   padding-bottom: 5px;
   color: #333333;
   border-bottom: 2px solid #262626;
 }
 .menu li a:hover {
-  
+  color: #287181;
   text-decoration: none;
 }
-
-.menu li a{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 1em;
-  text-transform: uppercase;
-
-}
-
-
 .menu li a:hover h4 {
   border-bottom: #1c4f5a solid 2px;
   animation: 0.5 linear;
