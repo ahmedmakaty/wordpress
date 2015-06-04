@@ -3,7 +3,7 @@
 Plugin Name: Installer
 Plugin URI: http://wp-compatibility.com/installer-plugin/
 Description: Need help buying, installing and upgrading commercial themes and plugins? **Installer** handles all this for you, right from the WordPress admin. Installer lets you find themes and plugins from different sources, then, buy them from within the WordPress admin. Instead of manually uploading and unpacking, you'll see those themes and plugins available, just like any other plugin you're getting from WordPress.org.
-Version: 1.3.1
+Version: 1.5.5
 Author: OnTheGoSystems Inc.     
 Author URI: http://www.onthegosystems.com/
 */
@@ -13,13 +13,22 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
 
+//It should only be loaded on the admin side
+if( !is_admin() ){
+    if(!function_exists('WP_Installer_Setup')){ function WP_Installer_Setup(){} }
+    $wp_installer_instance = null;
+    return;
+}
+
 
 $wp_installer_instance = dirname(__FILE__) . '/installer.php';
 
+
 // Global stack of instances
+global $wp_installer_instances;
 $wp_installer_instances[$wp_installer_instance] = array(
     'bootfile'  => $wp_installer_instance,
-    'version'   => '1.3.1'
+    'version'   => '1.5.5'
 );
 
 // Only one of these in the end
@@ -30,9 +39,10 @@ add_action('after_setup_theme', 'wpml_installer_instance_delegator', 1);
 if(!function_exists('wpml_installer_instance_delegator')){
     function wpml_installer_instance_delegator(){
         global $wp_installer_instances;
-        
+
+        // version based election
         foreach($wp_installer_instances as $instance){
-            
+
             if(!isset($delegate)){
                 $delegate = $instance;
                 continue;
@@ -42,7 +52,18 @@ if(!function_exists('wpml_installer_instance_delegator')){
                 $delegate = $instance;    
             }
         }
-        
+
+        // priority based election
+        $highest_priority = null;
+        foreach($wp_installer_instances as $instance) {
+            if(isset($instance['args']['high_priority'])){
+                if(is_null($highest_priority) || $instance['args']['high_priority'] <= $highest_priority){
+                    $highest_priority = $instance['args']['high_priority'];
+                    $delegate = $instance;
+                }
+            }
+        }
+
         include_once $delegate['bootfile'];
         
         // set configuration
@@ -70,9 +91,7 @@ if(!function_exists('WP_Installer_Setup')){
     function WP_Installer_Setup($wp_installer_instance, $args = array()){
         global $wp_installer_instances;
         
-        //if(isset($wp_installer_instances[$wp_installer_instance])){
-            $wp_installer_instances[$wp_installer_instance]['args'] = $args;
-        //}
+        $wp_installer_instances[$wp_installer_instance]['args'] = $args;
 
     }
     

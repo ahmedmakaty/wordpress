@@ -46,6 +46,8 @@
 
           <a class="navbar-brand" href="<?php echo home_url();?>"><img class="nav-logo" src="<?php print THEMEROOT;?>/img/logo21.png"></a>
 
+
+
         </div>
         
 
@@ -63,9 +65,12 @@
 		                
 		            ));
 		  ?>
-        
+
+
+        <?php do_action('icl_language_selector'); ?>
         
       </div>
-    </nav>
 
+    </nav>
+<div style="margin-top:50px;">
     
