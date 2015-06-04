@@ -54,6 +54,49 @@
 <script src="<?php print THEMEROOT;?>/js/main.js"></script>
 <script src="<?php print THEMEROOT;?>/js/vendor/owlcarousel.min.js"></script>
 
+ <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+            <script>
+            var address1=new google.maps.LatLng(51.508742,-0.120850);
+            var address2=new google.maps.LatLng(30.088905,31.326224);
+            var address3=new google.maps.LatLng(51.508742,-0.120850);
+            function initializest() {
+        var mapProp = {
+        center:new google.maps.LatLng(30.088905,31.326224),
+        zoom:17,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        var map=new google.maps.Map(document.getElementById("googleMapad1"),mapProp);
+            var marker=new google.maps.Marker({
+        position:new google.maps.LatLng(30.088905,31.326224)
+        });
+
+        marker.setMap(map);
+
+        google.maps.event.addDomListener(document.getElementById("address1"),'click',function() {
+          map.setZoom(17);
+          map.setCenter(address1);
+            var marker = new google.maps.Marker({
+                position: address1,
+                map: map,
+              });
+          });
+
+         google.maps.event.addDomListener(document.getElementById("address2"),'click',function() {
+          map.setZoom(17);
+          map.setCenter(address2);
+          });
+        
+         google.maps.event.addDomListener(document.getElementById("address3"),'click',function() {
+          map.setZoom(17);
+          map.setCenter(address2);
+          });
+        }
+    
+        google.maps.event.addDomListener(window, 'load', initializest);
+       
+    </script>
+
 
 <!-- wow intialization for animate.css -->
 <script>

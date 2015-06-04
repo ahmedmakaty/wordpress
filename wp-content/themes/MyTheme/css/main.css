@@ -373,3 +373,29 @@ a {
   padding-right: 0;
   padding-left: 0;
 }
+
+.contactPage {
+  background: url(../img/products/ProductsBg.jpg) #287181;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+.ContactHeader,
+.contactinfo {
+  color: #ffffff;
+}
+.ContactHeader {
+  margin-bottom: 25px;
+}
+.contactButton {
+  padding: 5% 20%;
+}
+.contactbuttoncenter {
+  text-align: center;
+}
