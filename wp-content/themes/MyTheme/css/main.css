@@ -212,9 +212,7 @@ a {
   background-color: #eaeaea;
 }
 .FS {
-  position: relative;
-  padding-top: 50px;
-  width: 80%;
+  padding-top: 80px;
 }
 .FS .FS1H {
   padding-bottom: 12.5px;
@@ -226,19 +224,18 @@ a {
 .FS3C .form-control {
   margin-top: 3%;
 }
-.contactBg {
+
+.contactBg{
   background-color: #287181;
-  margin-left: 84%;
-  width: 44%;
-  margin-top: -5%;
-  padding-top: 1%;
-  padding-left: 4%;
-  padding-bottom: 16%;
-  margin-bottom: 0px;
 }
 .contactBg h2 {
   color: #ffffff;
 }
+
+.ContactPadding{
+  padding:5% 8% 5% 10%;
+}
+
 .ACS {
   background: url("../img/about/CB.jpg") #287181;
   background-repeat: no-repeat;
@@ -345,4 +342,15 @@ a {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
 }
