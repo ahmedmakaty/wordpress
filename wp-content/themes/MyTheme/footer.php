@@ -4,7 +4,7 @@
 <section class="footer " >
   <div class="container-fluid">
     <div class="row ">
-      <div class=" col-md-3  ">
+      <div class="col-md-offset-2 col-md-3  ">
         <h5 class="FS">
           <?php bloginfo('name');?>
 

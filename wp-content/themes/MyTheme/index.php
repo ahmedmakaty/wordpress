@@ -50,8 +50,9 @@
   </div>
 
   <section class="CS2">
-    <div class="container">
+
       <div class="row">
+    <div class="container">
         <div class="col-md-offset-2 col-md-8 col-md-offset-2 ">
           <div class="CS21">
             <h1 class="MS CS32H">
@@ -76,12 +77,9 @@
          
           </div>
         </div>
-        <div class="col-md-1 col-md-offset-1">
-          <div class="icon-l"></div>
-        </div>
       </div>
     </div>
-    
+    </div>
   </section>
 
 
