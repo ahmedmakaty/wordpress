@@ -35,12 +35,11 @@
             <![endif]-->
             <nav class="navbar mnav navbar-default navbar-fixed-top" role="navigation">
               <div class="container">
-              <?php if(ICL_LANGUAGE_CODE == 'en') : ?>
                 <div class="navbar-header">
 
-                
 
-                  <a href="<?php echo home_url();?>"><img  class="nav-logo img-responsive" src="<?php print THEMEROOT;?>/img/logo21.png"></a>
+
+                  <a class="navbar-brand " href="<?php echo home_url();?>"><img  class="nav-logo img-responsive" src="<?php print THEMEROOT;?>/img/logo21.png"></a>
 
 
 
@@ -62,44 +61,43 @@
                   ));
                   ?>
 
-                  <div id="lang-sel-me">
+
                   <?php do_action('icl_language_selector'); ?>
-                </div>
 
-                <?php else : ?>
+              </div>
 
-                      <?php
-              wp_nav_menu( array(
+          </nav>
+
+          <!-- responsive menu -->
+
+          <div class="  menu-section clearfix">
+              <div class="menu-toggle">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+
+            <nav class="responsivenav" >
+
+               <?php
+               wp_nav_menu( array(
                   'menu'              => 'main-menu',
                   'theme_location'    => 'main-menu',
                   'depth'             => 2,
                   'container'         => 'div',
-                  'container_class'   => 'navbar-collapse collapse',
-                  'container_id'      => 'navbar',
-                  'menu_class'        => 'menu navbar-left',
+                  'container_class'   => 'menu-section',
+                  'menu_class'        => 'responsivenav',
+                  'items_wrap' => '<ul class="animated zoomIn hidden ">%3$s</ul>', 
 
                   'walker'            => new wp_bootstrap_navwalker()
 
                   ));
-                ?>
-                    
-                    <div class="navbar-header">
-                     <a href="<?php echo home_url();?>"><img  class="nav-logo-ar img-responsive" src="<?php print THEMEROOT;?>/img/logo21.png"></a>
-                     </div>
+                  ?>
 
 
-              
-
-               
-                </div>
-                <div id="lang-sel-me-ar">
                   <?php do_action('icl_language_selector'); ?>
-                </div>
-                <?php endif;?>
 
-
-          </nav>
-
- 
+              </nav>
+          </div>
 
           <div class="bodyresponsivepadding">

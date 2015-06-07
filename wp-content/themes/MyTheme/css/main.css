@@ -76,7 +76,7 @@ body h5 {
 }
 ul {
   list-style: none;
-  margin-top: 1%;
+  margin-top: 0.5%;
   vertical-align: middle;
 }
 li {
@@ -95,31 +95,14 @@ a {
 }
 .nav-logo {
   width: 130px;
-  margin-top: -10%;
+  margin-top: -18px;
   opacity: 1.5;
 }
-
-.nav-logo-ar {
-  width: 130px;
-  margin-top: -5%;
-  opacity: 1.5;
-  margin-left: 100%;
-}
-
 .navbar-right li a:hover {
   padding-bottom: 5px;
   color: #333333;
   border-bottom: 2px solid #262626;
 }
-
-.navbar-left li a:hover {
-  padding-bottom: 5px;
-  color: #333333;
-  border-bottom: 2px solid #262626;
-}
-
-
-
 .menu li a:hover {
   
   text-decoration: none;
@@ -552,7 +535,8 @@ a {
 
 #lang_sel{
   position:fixed !important;
-  top:12.6%;
+  top:48px;
+  right:0%;
 }
 #lang_sel li {
   width:92px;
@@ -565,15 +549,4 @@ a {
 ul.col-md-6.col-xs-12.col-sm-12.clearfix {
   line-height: 2.5em;
   margin-top: 0%;
-}
-
-.navbar-left li a {
-  font-size: 1.1em;
-}
-
-#lang-sel-me {
-  margin-left: 101.1%;
-}
-#lang-sel-me-ar {
-  margin-right: 101.1%;
 }
