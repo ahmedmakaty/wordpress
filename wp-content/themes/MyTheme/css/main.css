@@ -213,6 +213,9 @@ a {
   text-align: center;
   color: #ffffff;
 }
+.CS2 .CS22 div a {
+  color:rgba(244, 244, 244, 0.85);
+}
 .CS3 {
   background: url("../img/C_Bg.jpg");
   background-repeat: no-repeat;
