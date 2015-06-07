@@ -4,16 +4,16 @@
 <section class="footer " >
   <div class="container-fluid">
     <div class="row ">
-      <div class="col-md-offset-2 col-md-3  ">
+      <div class="col-md-offset-2 col-md-3 col-sm-8 col-sm-offset-3 col-xs-8 col-xs-offset-3  ">
         <h5 class="FS">
           <?php bloginfo('name');?>
 
         </h5>
-        <p>
+        <p class="col-md-10 ">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
         </p>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-2 col-md-offset-0  col-xs-8 col-xs-offset-3 col-sm-8 col-sm-offset-3 clearfix">
         <h5 class="FS">
           Address
         </h5>
@@ -25,8 +25,8 @@
          </li>
        </ul>  
      </div>
-     <div class="row no-guitter">
-     <div  class="col-md-5">
+     <div class="row contactResPadding no-guitter">
+     <div  class="col-md-5 col-md-offset-0 col-xs-9 col-xs-offset-3 ">
       <div class="wow bounceInRight clearfix">
         <div class="contactBg clearfix">
           <div class="ContactPadding clearfix">
@@ -53,7 +53,7 @@
 <script src="<?php print THEMEROOT;?>/js/vendor/bootstrap.min.js"></script>
 <script src="<?php print THEMEROOT;?>/js/main.js"></script>
 <script src="<?php print THEMEROOT;?>/js/vendor/owlcarousel.min.js"></script>
-
+<!-- 
  <script src="http://maps.googleapis.com/maps/api/js"></script>
 
             <script>
@@ -97,7 +97,7 @@
        
     </script>
 
-
+ -->
 <!-- wow intialization for animate.css -->
 <script>
 wow = new WOW(

@@ -5,6 +5,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 body {
   margin-top: 0px;
   padding-top: 0px;
@@ -14,6 +21,7 @@ body {
   font-weight: 400;
   font-size: 1.5em;
   padding-bottom: 0px;
+  padding-right: 0px;
 }
 body h3 {
   font-family: 'Roboto', sans-serif;
@@ -74,7 +82,7 @@ ul {
 li {
   float: left;
   margin-right: 20px;
-  margin-top: 1.7%;
+  margin-top: 0px;
 }
 a {
   color: #333333;
@@ -191,10 +199,6 @@ a {
 .Hwhite h6 {
   color: #3493a8;
 }
-.liststyle {
-  line-height: 2.5em;
-  margin-top: 7%;
-}
 .CS2 {
   color: #ffffff;
   background: url("../img/CBattern3.jpg");
@@ -233,6 +237,7 @@ a {
 }
 .FS {
   padding-top: 80px;
+  margin-bottom: 30px;
 }
 .FS .FS1H {
   padding-bottom: 12.5px;
@@ -525,4 +530,20 @@ a {
 
 }
 
+#lang_sel{
+  position:fixed !important;
+  top:48px;
+  right:0%;
+}
+#lang_sel li {
+  width:92px;
+}
+#lang_sel a.lang_sel_sel{
+  color:#fff;
+  background:rgba(49, 116, 122, 0.8) right no-repeat !important;
+}
 
+ul.col-md-6.col-xs-12.col-sm-12.clearfix {
+  line-height: 2.5em;
+  margin-top: 0%;
+}
