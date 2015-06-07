@@ -37,7 +37,7 @@
               <div class="container">
                 <div class="navbar-header">
 
-
+                <?php if(ICL_LANGUAGE_CODE == 'en') : ?>
 
                   <a class="navbar-brand " href="<?php echo home_url();?>"><img  class="nav-logo img-responsive" src="<?php print THEMEROOT;?>/img/logo21.png"></a>
 
@@ -61,10 +61,45 @@
                   ));
                   ?>
 
-
+                  <div id="lang-sel-me">
                   <?php do_action('icl_language_selector'); ?>
+                </div>
+
+                <?php else : ?>
+
+
+                <?php
+              wp_nav_menu( array(
+                  'menu'              => 'main-menu',
+                  'theme_location'    => 'main-menu',
+                  'depth'             => 2,
+                  'container'         => 'div',
+                  'container_class'   => 'navbar-collapse collapse',
+                  'container_id'      => 'navbar',
+                  'menu_class'        => 'menu navbar-left',
+
+                  'walker'            => new wp_bootstrap_navwalker()
+
+                  ));
+                ?>
+
+                <a class="navbar-brand " href="<?php echo home_url();?>"><img  class="nav-logo-ar img-responsive" src="<?php print THEMEROOT;?>/img/logo21.png"></a>
+
+
 
               </div>
+
+                <div id="lang-sel-me-ar">
+                  <?php do_action('icl_language_selector'); ?>
+                </div>
+              
+                </div>
+                <?php endif;?>
+
+
+
+                
+              
 
           </nav>
 
