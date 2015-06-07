@@ -100,36 +100,6 @@
 
           </nav>
 
-          <!-- responsive menu -->
-
-          <div class="  menu-section clearfix">
-              <div class="menu-toggle">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-            </div>
-
-            <nav class="responsivenav" >
-
-               <?php
-               wp_nav_menu( array(
-                  'menu'              => 'main-menu',
-                  'theme_location'    => 'main-menu',
-                  'depth'             => 2,
-                  'container'         => 'div',
-                  'container_class'   => 'menu-section',
-                  'menu_class'        => 'responsivenav',
-                  'items_wrap' => '<ul class="animated zoomIn hidden ">%3$s</ul>', 
-
-                  'walker'            => new wp_bootstrap_navwalker()
-
-                  ));
-                  ?>
-
-
-                  <?php do_action('icl_language_selector'); ?>
-
-              </nav>
-          </div>
+ 
 
           <div class="bodyresponsivepadding">
