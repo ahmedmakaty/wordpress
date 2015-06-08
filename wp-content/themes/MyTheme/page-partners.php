@@ -13,10 +13,18 @@ Template Name: Principles Page
             <div class="container">
               <!-- cs31 -->
               <div class="CS31 CsLead CsPadding Cscenter row">
+              <?php if(ICL_LANGUAGE_CODE == 'ar') : ?>
+                <h1 class="Hwhite">وكلاء و موزعون</h1>
+              </div>
+              
+              <?php $categories = get_categories('child_of=22');?>
+            <?php else : ?>
                 <h1 class="Hwhite">AGENTS & DISTRUPUTERS</h1>
               </div>
 
               <?php $categories = get_categories('child_of=13');?>
+
+            <?php endif;?>
               <!-- cs32 -->
               <div class="CS32 CsPadding Cscenter row">
 
@@ -34,8 +42,5 @@ Template Name: Principles Page
                </div>
               </section>
 
-              <pre>
-              <?php print_r(get_categories());?>
-              </pre>
 
 <?php get_footer(); ?>
