@@ -184,6 +184,8 @@ li:lang(ar) {
   .col-md-offset-0:lang(ar) {
     margin-right: 0 !important;
     margin-left:0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -501,7 +503,7 @@ a {
   margin-top: 2%;
   margin-left: 12%;
   font-style: italic;
-}.ACS .row .ACSC .ACS2 .ACS21 .ACS211:lang(ar) {
+}.ACS .row .ACSC .ACS2 .ACS21 .ACS211 .©184:lang(ar) {
   margin-top: 11%;
   font-style: none !important;
 }
