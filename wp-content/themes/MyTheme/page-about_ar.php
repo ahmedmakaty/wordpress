@@ -65,4 +65,4 @@ Template Name: Arabic About Page
               <!--  -->
 
 
-<?php get_footer();?>
+<?php get_footer("ar");?>

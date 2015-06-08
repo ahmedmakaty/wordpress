@@ -93,4 +93,4 @@ Template Name: Arabic home Page
 
 	
 
-<?php get_footer();?>
+<?php get_footer("ar");?>

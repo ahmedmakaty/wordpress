@@ -80,4 +80,4 @@ Template Name: Arabic Contact Page
       <!--  -->
 
 
-<?php get_footer(); ?>
+<?php get_footer("ar"); ?>
