@@ -4,33 +4,31 @@
 <section class="footer " >
   <div class="container-fluid">
     <div class="row ">
-      <div class="col-md-offset-2 col-md-3 col-sm-8 col-sm-offset-3 col-xs-8 col-xs-offset-3  ">
-        <h5 class="FS">
-          <?php bloginfo('name');?>
-
+      <div class="col-md-offset-2  col-md-3 col-sm-8 col-sm-offset-3 col-xs-8 col-xs-offset-3  ">
+        <h5 class="FS FS1A">
+          العنوان الأول
         </h5>
-        <p class="col-md-10 ">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
-        </p>
+        <p class="col-md-10  ">
+          شركة المسلة لتصنيع ملحقات الكابلات ، نستخدم خطوط لوريم ابسوم ، نستخدم خطوط لوريم ابسوم. شركة المسلة لتصنيع ملحقات الكابلات ، نستخدم خطوط لوريم ابسوم ، نستخدم خطوط لوريم ابسوم        </p>
       </div>
-      <div class="col-md-2 col-md-offset-0  col-xs-8 col-xs-offset-3 col-sm-8 col-sm-offset-3 clearfix">
+      <div class="col-md-2 col-md-offset-0  FS1A col-xs-8 col-xs-offset-3 col-sm-8 col-sm-offset-3 clearfix">
         <h5 class="FS">
-          Address
+          العنوان الثاني
         </h5>
         <ul>
          <li>
-           <p>phone</p>
-           <p>email</p>
-           <p>Address</p>
+           <p>رقم الهاتف</p>
+           <p>الإيميل</p>
+           <p>العنوان</p>
          </li>
        </ul>  
      </div>
      <div class="row contactResPadding no-guitter">
-     <div  class="col-md-5 col-md-offset-0 col-xs-9 col-xs-offset-3 ">
-      <div class="wow bounceInRight clearfix">
+     <div  class="col-md-5 col-md-offset-0  col-xs-9 col-xs-offset-3 ">
+      <div class="wow bounceInLeft clearfix">
         <div class="contactBg clearfix">
           <div class="ContactPadding clearfix">
-        <h2> Contact Us</h2>
+        <h2> اتصل بنا</h2>
 
 
           <?php echo do_shortcode('[contact-form-7 id="91" title="Untitled"]');?>

@@ -61,7 +61,7 @@ body h4:lang(ar) {
   font-family: Frutiger_light;
   font-size: 2em;
   line-height: 0.8em;
-  font-style: italic;
+  font-style: none !important;
   text-transform: uppercase;
 }
 body h6:lang(ar) {
@@ -74,7 +74,7 @@ body h1:lang(ar) {
   font-size: 2.7em;
   line-height: 0.8955em;
   margin-bottom: 11px;
-  color: #287181;
+  color: #339999;
 }
 body h2:lang(ar) {
   font-family: Gess_light;
@@ -111,6 +111,83 @@ li:lang(ar) {
 }
 
 
+.ACSM:lang(ar){
+}
+
+.ACS13{
+  margin-bottom: 10px;
+}
+.ACS11{
+  color:#339999;
+}
+
+
+
+@media (min-width: 992px) {
+  .col-md-1:lang(ar), .col-md-2:lang(ar), .col-md-3:lang(ar), .col-md-4:lang(ar), .col-md-5:lang(ar), .col-md-6:lang(ar), .col-md-7:lang(ar), .col-md-8:lang(ar), .col-md-9:lang(ar), .col-md-10:lang(ar), .col-md-11:lang(ar), .col-md-12:lang(ar),.col-xs-1:lang(ar), .col-xs-2:lang(ar), .col-xs-3:lang(ar), .col-xs-4:lang(ar), .col-xs-5:lang(ar), .col-xs-6:lang(ar), .col-xs-7:lang(ar), .col-xs-8:lang(ar), .col-xs-9:lang(ar), .col-xs-10:lang(ar), .col-xs-11:lang(ar), .col-xs-12:lang(ar),.col-sm-1:lang(ar), .col-sm-2:lang(ar), .col-sm-3:lang(ar), .col-sm-4:lang(ar), .col-sm-5:lang(ar), .col-sm-6:lang(ar), .col-sm-7:lang(ar), .col-sm-8:lang(ar), .col-sm-9:lang(ar), .col-sm-10:lang(ar), .col-sm-11:lang(ar), .col-sm-12:lang(ar) {
+
+  
+    float: right;
+}
+
+   .col-md-offset-[class*='*']:lang(ar){
+    margin-left:0px !important; 
+   }
+  .col-md-offset-12:lang(ar) {
+    margin-right: 100% !important;
+    margin-left:0px;
+  }
+  .col-md-offset-11:lang(ar) {
+    margin-right: 91.66666667% !important;
+    margin-left:0px;
+  }
+  .col-md-offset-10:lang(ar) {
+    margin-right: 83.33333333% !important;
+    margin-left:0px;
+  }
+  .col-md-offset-9:lang(ar) {
+    margin-right: 75% !important;
+    margin-left:0px;
+  }
+  .col-md-offset-8:lang(ar) {
+    margin-right: 66.66666667% !important;
+    margin-left:0px;
+  }
+  .col-md-offset-7:lang(ar) {
+    margin-right: 58.33333333% !important;
+    margin-left:0px;
+  }
+  .col-md-offset-6:lang(ar) {
+    margin-right: 50% !important;
+    margin-left:0px;
+  }
+  .col-md-offset-5 :lang(ar){
+    margin-right: 41.66666667% !important;
+    margin-left:0px;
+  }
+  .col-md-offset-4:lang(ar) {
+    margin-right: 33.33333333% !important;
+    margin-left:0px;
+  }
+  .col-md-offset-3:lang(ar) {
+    margin-right: 25% !important;
+    margin-left:0px;
+  }
+  .col-md-offset-2:lang(ar) {
+    margin-right: 16.66666667% !important;
+    margin-left:0px;
+  }
+  .col-md-offset-1:lang(ar) {
+    margin-right: 8.33333333% !important;
+    margin-left:0px;
+  }
+  .col-md-offset-0:lang(ar) {
+    margin-right: 0 !important;
+    margin-left:0px;
+  }
+}
+
+
 /*English typorgraphy*/
 
 
@@ -142,7 +219,7 @@ body h4 {
   font-weight: 100;
   font-size: 2em;
   line-height: 0.8em;
-  font-style: italic;
+  font-style: nonen !important;
   text-transform: uppercase;
 }
 body h6 {
@@ -424,6 +501,9 @@ a {
   margin-top: 2%;
   margin-left: 12%;
   font-style: italic;
+}.ACS .row .ACSC .ACS2 .ACS21 .ACS211:lang(ar) {
+  margin-top: 11%;
+  font-style: none !important;
 }
 .ACS .row .ACSC .ACS2 .ACS21 h4 {
   color: #ffffff;
