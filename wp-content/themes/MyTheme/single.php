@@ -23,4 +23,10 @@
 </section>
 
 
-<?php get_footer();?>
+<?php if(ICL_LANGUAGE_CODE == 'ar') {
+  get_footer('ar');
+} else {
+  get_footer();
+}
+
+?>

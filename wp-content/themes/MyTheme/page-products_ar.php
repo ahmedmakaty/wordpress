@@ -1,6 +1,6 @@
 <?php
 /****
-Template Name: Products Page
+Template Name: Ar Products Page
 */
 ?>
 
@@ -13,7 +13,7 @@ Template Name: Products Page
         <div class="col-md-offset-2 col-md-8 col-md-offset-2 ">
           <div class="CS21">
             <h1 class="MS CS32H">
-              Manufactureres Of 
+              منتجات الشركة
             </h1>
           </div>
         </div>
@@ -51,10 +51,10 @@ Template Name: Products Page
             <div class="container">
               <!-- cs31 -->
               <div class="CS31 CsLead CsPadding Cscenter row">
-                <h1 class="Hwhite">AGENTS & DISTRUPUTERS</h1>
+                <h1 class="Hwhite">وكلاء و موزعون</h1>
               </div>
 
-              <?php $categories = get_categories('child_of=13');?>
+              <?php $categories = get_categories('child_of=22');?>
               <!-- cs32 -->
               <div class="CS32 CsPadding Cscenter row">
 
@@ -75,4 +75,4 @@ Template Name: Products Page
 
 
 
-<?php get_footer(); ?>
+<?php get_footer('ar'); ?>

@@ -41,6 +41,10 @@ Template Name: Principles Page
                <div>
                </div>
               </section>
+<?php if(ICL_LANGUAGE_CODE == 'ar') {
+  get_footer('ar');
+} else {
+  get_footer();
+}
 
-
-<?php get_footer(); ?>
+?>

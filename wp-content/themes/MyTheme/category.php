@@ -50,4 +50,10 @@ Nulla facilisi. Etiam ac sodales nibh. Vivamus suscipit tempus mi, vitae volutpa
 
 
 
-<?php get_footer(); ?>
+<?php if(ICL_LANGUAGE_CODE == 'ar') {
+  get_footer('ar');
+} else {
+  get_footer();
+}
+
+?>
