@@ -102,6 +102,15 @@ body h5:lang(ar) {
   font-size: 1.3em;
 
 }
+
+
+
+li:lang(ar) {
+    margin-left: 20px;
+    float: right;
+}
+
+
 /*English typorgraphy*/
 
 
@@ -377,7 +386,7 @@ a {
   background-size: cover;
 }
 .ACS .row .container {
-  padding-top: 300px;
+  padding-top: 180px;
 }
 .ACS .row .ACSH .ACSM {
   padding-right: 3%;
@@ -694,7 +703,6 @@ ul.col-md-6.col-xs-12.col-sm-12.clearfix {
 
 
 /*arabic class*/
-
 
 #lang_sel:lang(ar){
   position:fixed !important;

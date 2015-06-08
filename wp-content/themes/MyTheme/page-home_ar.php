@@ -16,41 +16,42 @@ Template Name: Arabic home Page
     <!-- content starts here --> 
   <div class="CS1">
     <div class="container">
-      <!-- Example row of columns -->
-      <div class="row ">
-        <div class="col-md-6 wow fadeInLeft">
-          <img class="img-responsive" src="<?php print THEMEROOT;?>/img/Cimage.jpg" alt="el masalla main tools">
-         <!--  <p><a class="btn btn-default" href="#" role="button">Lorem Ipsum! &raquo;</a></p> -->
-        </div>
+          <div class="row ">
+        
         <div class="col-md-6   ">
-          <div class="wow fadeInDown"><h1 >Heading</h1>
-          <h2 > Sub-heading goes here </h2>
+          <div class="wow fadeInDown"><h1 >العنوان الأول</h1>
+          <h2 > بعض التفاصيل هنا </h2>
           </div>
           <div class="wow fadeInUp">
           <div class="row liststyle">
-            <ul class="col-md-6">
-              <li>  • Lorem ipsum dolor sit </li>
-              <li>• Consectetur adipiscing </li>
-              <li>• Massa at sem convallis</li>
-              <li>• Nulla ornare libero et</li>
-              <li>• Donec eget orci vitae </li>
-              <li>• Fringilla dignissim sed</li>
-              <li>• Enim rhoncus pulvinar.</li>
-              <li>• Suspendisse imperdiet </li>
-            </ul>
              <ul class="col-md-6">
-              <li>  • Lorem ipsum dolor sit </li>
-              <li>• Consectetur adipiscing </li>
-              <li>• Massa at sem convallis</li>
-              <li>• Nulla ornare libero et</li>
-              <li>• Donec eget orci vitae </li>
-              <li>• Fringilla dignissim sed</li>
-              <li>• Enim rhoncus pulvinar.</li>
-              <li>• Suspendisse imperdiet </li>
+              <li>• شركة المسلة لتصنيع </li>
+              <li>• ملحقات الكابلات شركة المسلة</li>
+              <li>• بعض التفاصيل الأخرى هنا</li>
+              <li>• هنا نضع المنتجات</li>
+              <li>• القليل من التفاصيل  </li>
+              <li>• شركة المسلة لتصنيع</li>
+              <li>• ملحقات الكابلات شركة المسلة</li>
+              <li>• هنا نضع المنتجات</li>
             </ul>
+            <ul class="col-md-6">
+              <li>• شركة المسلة لتصنيع </li>
+              <li>• ملحقات الكابلات شركة المسلة</li>
+              <li>• بعض التفاصيل الأخرى هنا</li>
+              <li>• هنا نضع المنتجات</li>
+              <li>• القليل من التفاصيل  </li>
+              <li>• شركة المسلة لتصنيع</li>
+              <li>• ملحقات الكابلات شركة المسلة</li>
+              <li>• هنا نضع المنتجات</li>
+            </ul>
+            
           </div>
         </div>
        </div>
+       <div class="col-md-6 wow fadeInRight">
+          <img class="img-responsive" src="<?php print THEMEROOT;?>/img/Cimage.jpg" alt="el masalla main tools">
+         <!--  <p><a class="btn btn-default" href="#" role="button">Lorem Ipsum! &raquo;</a></p> -->
+        </div>
       </div>
     </div>
   </div>
@@ -62,7 +63,7 @@ Template Name: Arabic home Page
         <div class="col-md-offset-2 col-md-8 col-md-offset-2 ">
           <div class="CS21">
             <h1 class="MS CS32H">
-              Manufactureres Of 
+              منتجات شركة المسلة
             </h1>
           </div>
         </div>
