@@ -75,9 +75,11 @@ Template Name: Home Page
         <div class="PSCS col-md-8">
                   <div id="owl-demo">
                   <?php while(have_posts()) : the_post(); ?>
-            <div class="item"><img src="<?php print THEMEROOT;?>/img/products/Cimage21.png" alt="Owl Image"></div>
+
+            <a href="<?php echo the_permalink();?>"><div class="item"><img src="<?php print THEMEROOT;?>/img/products/Cimage21.png" alt="Owl Image"><h3><?php the_title();?></h3></div></a>
+                  
                 <?php endwhile;?>
-          </div>
+        </div>
                 </div>
   <?php endif;?>
          
