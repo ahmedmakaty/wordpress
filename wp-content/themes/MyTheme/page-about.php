@@ -15,7 +15,7 @@ Template Name: About Page
                   <div class=" col-md-offset-3 col-md-4 ACSM">
                     <div class="ACS1">
                       <h1 class="ACS11">El Massala Co.</h1>
-                      <p class="ACS12"><?php the_field('description');?></p>
+                      <p class="ACS12">This is some description <blockquote>This is a quote</blockquote></p>
                       </div>
 
                     </div>
