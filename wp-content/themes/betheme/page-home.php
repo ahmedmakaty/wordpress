@@ -68,9 +68,8 @@ Template Name: Home Page
         </div>
       </div>
       <div class="row CS22">
-        <div class="col-md-offset-1 col-md-1">
          <?php query_posts( array ( 'category_name' => 'manufactured', 'posts_per_page' => 4 ) );?>
-        </div>
+        
         <?php if(have_posts()) : ?>
         <div class="PSCS col-md-8">
                   <div id="owl-demo">

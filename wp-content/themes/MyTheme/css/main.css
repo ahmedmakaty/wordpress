@@ -69,10 +69,10 @@ body h6:lang(ar) {
   font-size: 1em;
   text-decoration: none !important;
 }
-body h1:lang(ar) {
-  font-family: Gess_bold;
-  font-size: 2.7em;
-  line-height: 0.8955em;
+body h1:lang(ar) { 
+ font-family: Gess_bold;
+  font-size: 2.5em;
+  line-height: 1.1em;
   margin-bottom: 11px;
   color: #339999;
 }
@@ -490,7 +490,7 @@ a {
   margin-bottom: 75px;
 }
 .ACS .row .ACSC .ACS2 {
-  padding-right: 6%;
+  padding-right: 50px;
 }
 .ACS .row .ACSC .ACS2 .ACS21 {
   background-color: rgba(70, 72, 85, 0.92);
@@ -502,9 +502,11 @@ a {
 .ACS .row .ACSC .ACS2 .ACS21 .ACS211 {
   margin-top: 2%;
   margin-left: 12%;
-  font-style: italic;
-}.ACS .row .ACSC .ACS2 .ACS21 .ACS211 .©184:lang(ar) {
+}
+.ACS .row .ACSC .ACS2 .ACS21 .ACS211:lang(ar){
   margin-top: 11%;
+  margin-left:0px;
+  margin-right: 12%;
   font-style: none !important;
 }
 .ACS .row .ACSC .ACS2 .ACS21 h4 {
@@ -700,7 +702,7 @@ a {
 
 
 
-@media (min-width: 920px) {
+@media (min-width: 1000px) {
   .menu-section {
     display: none;
   }
@@ -710,7 +712,7 @@ a {
   
 
 }
-@media (max-width: 920px) {
+@media (max-width: 1000px) {
   #navbar ul {
     display: none;
   }
@@ -789,8 +791,7 @@ ul.col-md-6.col-xs-12.col-sm-12.clearfix {
 #lang_sel:lang(ar){
   position:fixed !important;
   top:48px;
-  right:85%;
-  left: 0%;
+  left: -35px;
 }
 .navbar-header:lang(ar){
   float: right !important;
@@ -804,3 +805,16 @@ ul.col-md-6.col-xs-12.col-sm-12.clearfix {
   left:10%;
 }
 
+
+.visiontitle:lang(ar){
+  margin-right: 9px;
+  margin-bottom: 6px;
+  margin-top: 5px;
+
+}
+.missiontitle:lang(ar){
+    margin-right: 10px;
+  margin-bottom: 6px;
+  margin-top: 5px;
+
+}

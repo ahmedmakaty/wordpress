@@ -95,7 +95,6 @@
                   ?>
 
 
-                  <?php do_action('icl_language_selector'); ?>
 
               </nav>
           </div>
