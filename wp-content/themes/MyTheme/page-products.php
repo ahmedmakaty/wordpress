@@ -62,7 +62,7 @@ Template Name: Products Page
               	
                 <div class="col-md-offset-1 col-md-3">
                   <a href="<?php echo get_category_link($row->term_id);?>"><img src="<?php echo z_taxonomy_image_url($row->term_id);?>" alt="" ></a>
-                  <h2 class="CS32H"><?php echo $row->name;?></h2>
+                  <h4 class="CS32H"><?php echo $row->name;?></h4>
                      
                 </div>
 
