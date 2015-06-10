@@ -61,11 +61,10 @@
           </div>
         </div>
       <div class="row CS22">
-        <!-- <div class="col-md-offset-1 col-md-1">
+       
          <?php query_posts( array ( 'category_name' => 'manufactured', 'posts_per_page' => 4 ) );?>
-        </div> -->
         <?php if(have_posts()) : ?>
-        <div class="PSCS col-md-offset-2 col-md-8  col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-3">
+        <div class="PSCS col-md-offset-3 col-md-6  col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-3">
                   <div id="owl-demo">
                   <?php while(have_posts()) : the_post(); ?>
             <div class="item"><img src="<?php print THEMEROOT;?>/img/products/Cimage21.png" alt="Owl Image"></div>
