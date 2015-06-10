@@ -31,7 +31,7 @@
         <h2> اتصل بنا</h2>
 
 
-          <?php echo do_shortcode('[contact-form-7 id="91" title="Untitled"]');?>
+          <?php echo do_shortcode('[contact-form-7 id="296" title="فورم"]');?>
        </div>
         </div>
       </div>

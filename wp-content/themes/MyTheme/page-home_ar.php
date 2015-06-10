@@ -72,7 +72,7 @@ Template Name: Arabic home Page
       </div>
       <div class="row CS22 ">
         <div class="container">
-         <?php query_posts( array ( 'category_name' => 'manufactured', 'posts_per_page' => 4 ) );?>
+         <?php query_posts( array ( 'category_name' => 'manufar', 'posts_per_page' => 4 ) );?>
         <?php if(have_posts()) : ?>
         <div class="PSCS col-md-offset-2 col-md-8  col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-3">
                   <div id="owl-demo">
