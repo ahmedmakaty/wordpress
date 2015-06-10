@@ -8,14 +8,14 @@
       <div class="col-md-offset-4  col-md-6  col-xs-11">
         <h1 class="PCSH"> <?php single_cat_title( '', true ); ;?></h1>
       </div>
-      <div class="col-md-offset-1 col-md-11 col-xs-11 PCS1">
-        <div class="row">
+      <div class="col-md-offset-1 col-md-11 clearfix col-xs-10 col-xs-offset-1 PCS1">
+        <div>
           <div class="col-md-offset-3  col-md-4">
             <img src="<?php echo z_taxonomy_image_url($row->term_id);?>" />
           </div>
           <div class="row">
-            <div class="col-md-offset-3 col-md-6 PBG">
-              <p class="PCS12 col-md-10">
+            <div class="col-md-offset-3 col-md-6 PBG clearfix">
+              <p class="PCS12 col-md-10 clearfix">
                 Cras dapibus eu nulla quis semper. Donec quis faucibus nunc, in varius leo. Quisque ullamcorper, orci ut vestibulum porta. <br>
                 Nulla facilisi. Etiam ac sodales nibh. Vivamus suscipit tempus mi, vitae volutpat leo
               </p>
