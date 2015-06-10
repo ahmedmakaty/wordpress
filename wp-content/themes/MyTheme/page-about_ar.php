@@ -15,7 +15,7 @@ Template Name: Arabic About Page
                   <div class=" col-md-offset-3 col-md-4 ACSM">
                     <div class="ACS1">
                       <h1 class="ACS11">شركة المسلة لتصنيع ملحقات الكابلات</h1>
-                      <p class="ACS12"><?php the_field('description');?>منذ عام  1986,تعتبر شركة المسلة الشركة الرائدة في السوق المصري فى مجال ملحقات الكبلات. سياسة الشركة هى <blockquote>جودة فى كل من المنتج و خدمة العملاء</blockquote></p>
+                      <p class="ACS12"><?php the_field('description');?>منذ عام  1986,تعتبر شركة المسلة الشركة الرائدة في السوق المصري فى مجال ملحقات الكبلات. سياسة الشركة هى <blockquote class="ACS12 arbl">جودة فى كل من المنتج و خدمة العملاء</blockquote></p>
                       </div>
 
                     </div>
@@ -52,12 +52,12 @@ Template Name: Arabic About Page
                     <div class="row ACS33">
                       <a href="<?php echo get_permalink('166');?>"><div class="col-md-offset-4 col-md-2 ACS331">
                         <img src="<?php print THEMEROOT;?>/img/About/products.png" alt="Masalla prodcuts">
-                        <h4>منتجاتنا</h4>
+                        <h4 class="Hwhite" >منتجاتنا</h4>
                       </div>
                       </a>
                       <a href="<?php echo get_permalink('169');?>"><div class="col-md-2 ACS332">
                         <img src="<?php print THEMEROOT;?>/img/About/partners.png" alt="Masalla prartners">
-                        <h4>شركاء النجاح</h4>
+                        <h4 class="Hwhite">شركاء النجاح</h4>
                       </div> 
                       </a>
                     </div>
