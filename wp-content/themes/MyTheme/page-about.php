@@ -50,14 +50,16 @@ Template Name: About Page
                       </div>
                     </div>
                     <div class="row ACS33">
-                      <div class="col-md-offset-4 col-md-2 ACS331">
+                      <a href="<?php echo get_permalink('79');?>"><div class="col-md-offset-4 col-md-2 ACS331">
                         <img src="<?php print THEMEROOT;?>/img/About/products.png" alt="Masalla prodcuts">
                         <h4>Products</h4>
                       </div>
-                      <div class="col-md-2 ACS332">
+                      </a>
+                      <a href="<?php echo get_permalink('81');?>"><div class="col-md-2 ACS332">
                         <img src="<?php print THEMEROOT;?>/img/About/partners.png" alt="Masalla prartners">
                         <h4>Partners</h4>
                       </div> 
+                      </a>
                     </div>
                   </div>
                 </div>
