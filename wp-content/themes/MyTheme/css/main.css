@@ -52,6 +52,7 @@ body:lang(ar) {
   -webkit-font-smoothing: antialiased;
   font-family: Frutiger_light;
   font-size: 1.5em;
+  text-decoration:none !important;
 }
 body h3:lang(ar) {
   font-family: Gess_light;
@@ -79,7 +80,6 @@ body h1:lang(ar) {
 body h2:lang(ar) {
   font-family: Gess_light;
   font-size: 2.41818em;
-  color: #287181;
   -webkit-font-smoothing: antialiased;
 }
 body h5:lang(ar) {
@@ -100,6 +100,7 @@ body h5:lang(ar) {
 .menu li a:lang(ar){
   font-family: Frutiger_light;
   font-size: 1.3em;
+  text-decoration: none;
 
 }
 
@@ -119,6 +120,13 @@ li:lang(ar) {
 }
 .ACS11{
   color:#339999;
+}
+
+
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: initial;
 }
 
 
@@ -211,6 +219,105 @@ body {
   padding-bottom: 0px;
   padding-right: 0px;
 }
+
+
+
+/*selections rules*/
+
+body::-moz-selection {
+color: white;
+background-color:#287181 
+}
+body::selection {
+color: white;
+background-color:#287181 
+}
+
+
+p::-moz-selection {
+color: white;
+background-color:#287181 
+}
+p::selection {
+color: white;
+background-color:#287181 
+}
+
+h1::-moz-selection {
+color: white;
+background-color:#287181 
+}
+h1::selection {
+color: white;
+background-color:#287181 
+}
+
+
+h2::-moz-selection {
+color: white;
+background-color:#287181 
+}
+h2::selection {
+color: white;
+background-color:#287181 
+}
+
+
+h3::-moz-selection {
+color: white;
+background-color:#287181 
+}
+h3::selection {
+color: white;
+background-color:#287181 
+}
+
+
+h4::-moz-selection {
+color: white;
+background-color:#287181 
+}
+h4::selection {
+color: white;
+background-color:#287181 
+}
+
+
+h5::-moz-selection {
+color: white;
+background-color:#287181 
+}
+h5::selection {
+color: white;
+background-color:#287181 
+}
+
+
+
+h6::-moz-selection {
+color: white;
+background-color:#287181 
+}
+h6::selection {
+color: white;
+background-color:#287181 
+}
+
+
+
+a::-moz-selection {
+color: white;
+background-color:#287181 
+}
+a::selection {
+color: rgb(255, 255, 255);
+background-color:#36889A;
+text-shadow:solid; 
+}
+
+
+
+
 body h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -251,7 +358,7 @@ body h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 2.41818em;
-  color: #287181;
+  color: #268585;
   -webkit-font-smoothing: antialiased;
 }
 body h5 {
@@ -817,4 +924,7 @@ ul.col-md-6.col-xs-12.col-sm-12.clearfix {
   margin-bottom: 6px;
   margin-top: 5px;
 
+}
+.PSCS{
+   direction: ltr !important;
 }

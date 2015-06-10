@@ -13,8 +13,11 @@ Template Name: Arabic Contact Page
             <div class="container">
               <div class="col-md-offset-2 col-md-5">
                 <h1 class="ContactHeader">
-                  Contact Us
+                  تواصل معنا
                 </h1>
+                  <p class="Hwhite"> 
+                    سوف يقوم احد ممثلين الشركة بالتواصل معكم :)
+                  </p>
 
                 <!-- contact form  here -->
 
