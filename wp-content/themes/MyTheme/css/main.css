@@ -63,6 +63,7 @@ body h4:lang(ar) {
   font-size: 2em;
   line-height: 0.8em;
   font-style: none !important;
+  text-transform: uppercase;
 }
 body h6:lang(ar) {
   font-family: Frutiger_bold;
@@ -191,8 +192,8 @@ a:focus {
   .col-md-offset-0:lang(ar) {
     margin-right: 0 !important;
     margin-left:0px;
-    padding-left: 15px;
-    padding-right: 17px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -328,6 +329,7 @@ body h4 {
   font-size: 2em;
   line-height: 0.8em;
   font-style: nonen !important;
+  text-transform: uppercase;
 }
 body h6 {
   font-family: 'Roboto', sans-serif;
@@ -465,7 +467,7 @@ a {
   transform: translate(0, 4px);
 }
 .Hwhite {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 .CsLead {
   margin-top: 100px;
@@ -524,7 +526,6 @@ a {
 }
 .CS32H {
   color: #ffffff;
-  text-transform:none !important;
 }
 .CS32P {
   color: #eefcff;
@@ -621,7 +622,7 @@ a {
 }
 .ACS .row .ACSC .ACS2 .ACS21 h3 {
   color: #cccccc;
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 .ACS .row .ACSC .ACS2 .ACS21 .ACS21M {
   margin-bottom: 10%;
@@ -663,7 +664,6 @@ a {
   background-color: rgba(229, 229, 229, 0.11);
   margin-bottom: 100px;
   padding-top: 25px;
-  padding-bottom: 25px;
 }
 #owl-demo .item {
   margin: 3px;
@@ -927,13 +927,4 @@ ul.col-md-6.col-xs-12.col-sm-12.clearfix {
 }
 .PSCS{
    direction: ltr !important;
-}
-.arbl{
-  border-left:0px;
-  border-right: 5px solid #eee;
-}
-
-.productsimg{
-  padding-left: 15px !important;
-  padding-right: 15px !important;
 }
