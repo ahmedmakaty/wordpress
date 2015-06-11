@@ -27,7 +27,11 @@ Template Name: Ar Products Page
                   <div id="owl-demo">
                   <?php while(have_posts()) : the_post(); ?>
 
-            <a href="<?php echo the_permalink();?>"><div class="item"><img src="<?php print THEMEROOT;?>/img/products/Cimage21.png" alt="Owl Image"><h3><?php the_title();?></h3></div></a>
+              <?php if(has_post_thumbnail()) : ?>
+            <a href="<?php echo the_permalink();?>"><div class="item"><?php the_post_thumbnail();?><h3><?php the_title();?></h3></div></a>
+                  <?php else :?>
+                     <a href="<?php echo the_permalink();?>"><div class="item"><img src="<?php print THEMEROOT;?>/img/products/Cimage21.png" alt="Owl Image"><h3><?php the_title();?></h3></div></a>
+                   <?php endif;?>
                   
                 <?php endwhile;?>
         </div>

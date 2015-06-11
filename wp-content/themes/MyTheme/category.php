@@ -32,19 +32,11 @@
       <div class=" col-md-offset-1 ">
         <div class="PSCM clearfix">
           <!-- // Prodcut Style Custom slider  -->
+          <?php while(have_posts()) : the_post();?>
             <div class="col-md-3 col-md-offset-0 col-xs-5 col-xs-offset-1 productsimg">
-              <img class="img-responsive" src="<?php print THEMEROOT;?>/img/Cimage51.jpg" alt="Masalla products">
+              <a href="<?php the_permalink();?>"><?php the_post_thumbnail();?>
             </div>
-            <div class="col-md-3 col-md-offset-0 col-xs-5 productsimg">
-              <img class="img-responsive" src="<?php print THEMEROOT;?>/img/Cimage52.jpg" alt="Masalla products">
-            </div>
-            <div class="col-md-3 col-md-offset-0 col-xs-5 col-xs-offset-1 productsimg">
-              <img class="img-responsive" src="<?php print THEMEROOT;?>/img/Cimage51.jpg" alt="Masalla products">
-            </div>
-            <div class="col-md-3 col-md-offset-0 col-xs-5 productsimg">
-              <img class="img-responsive" src="<?php print THEMEROOT;?>/img/Cimage51.jpg" alt="Masalla products">
-            </div>
-
+          <?php endwhile;?>
         </div>
       </div>
     </div>

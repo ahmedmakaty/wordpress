@@ -19,16 +19,20 @@ Template Name: Products Page
         </div>
       </div>
       <div class="row CS22">
-        <div class="col-md-offset-1 col-md-1">
+        
          <?php query_posts( array ( 'category_name' => 'manufactured', 'posts_per_page' => 4 ) );?>
-        </div>
+        
         <?php if(have_posts()) : ?>
-                <div class="PSCS col-md-8 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="PSCS col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2 col-xs-10 col-xs-offset-1">
 
                   <div id="owl-demo">
                   <?php while(have_posts()) : the_post(); ?>
 
-            <a href="<?php echo the_permalink();?>"><div class="item"><img src="<?php print THEMEROOT;?>/img/products/Cimage21.png" alt="Owl Image"><h3><?php the_title();?></h3></div></a>
+             <?php if(has_post_thumbnail()) : ?>
+            <a href="<?php echo the_permalink();?>"><div class="item"><?php the_post_thumbnail();?><h3><?php the_title();?></h3></div></a>
+                  <?php else :?>
+                     <a href="<?php echo the_permalink();?>"><div class="item"><img src="<?php print THEMEROOT;?>/img/products/Cimage21.png" alt="Owl Image"><h3><?php the_title();?></h3></div></a>
+                   <?php endif;?>
                   
                 <?php endwhile;?>
         </div>

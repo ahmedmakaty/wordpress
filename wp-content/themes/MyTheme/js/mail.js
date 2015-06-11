@@ -54,7 +54,9 @@ $(document).ready(function(){
 	$('#checkbox1').change(function() {
 		if($(this).is(":checked")) {
 			$("#product").fadeIn("slow");
-		}
+		}else{
+      $("#product").fadeOut("slow");
+    }
 	});
 
 });
