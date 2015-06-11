@@ -49,13 +49,6 @@
   <?php endif;?>
 </section>
 
-<pre>
-  <?php print_r($attachments);?>
-</pre>
-
-
-
-
 <?php if(ICL_LANGUAGE_CODE == 'ar') {
   get_footer('ar');
 } else {

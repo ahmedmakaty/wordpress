@@ -51,6 +51,7 @@
 <script src="<?php print THEMEROOT;?>/js/vendor/bootstrap.min.js"></script>
 <script src="<?php print THEMEROOT;?>/js/main.js"></script>
 <script src="<?php print THEMEROOT;?>/js/vendor/owlcarousel.min.js"></script>
+<script src="<?php print THEMEROOT;?>/js/mail.js"></script>
 <!-- 
  <script src="http://maps.googleapis.com/maps/api/js"></script>
 

@@ -29,12 +29,12 @@ Template Name: Arabic Contact Page
 
         <div class="form-group">
 
-          <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+          <input type="text" class="form-control" id="name" name="name" placeholder="الاسم">
         </div>
 
         <div class="form-group">
 
-          <input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+          <input type="email" class="form-control" id="email" name="email" placeholder="البريد الالكترونى">
         </div>
         <br />
         <div class="form-group">

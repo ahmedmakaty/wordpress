@@ -16,7 +16,6 @@
     padding-top: 4%;
   }
 
-
 }
 @media (max-width: 1000px) {
   #navbar ul {
@@ -38,7 +37,11 @@
   .bodyresponsivepadding {
     padding-top: 2%;
   }
-
+}
+@media (max-width:1200px){
+  .ContactPadding {
+  padding-bottom: 28% !important;
+}
 }
 @media (max-width: 990px){
 
