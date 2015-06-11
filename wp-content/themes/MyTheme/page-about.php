@@ -11,11 +11,11 @@ Template Name: About Page
            <section class="ACS">
             <div class="row ">
               <div class="container">
-                <div class="row ACSH">
-                  <div class=" col-md-offset-3 col-md-4 ACSM">
+                <div class="row ACSH responsivepaddingtop">
+                  <div class=" col-md-offset-3 col-sm-offset-2 col-sm-8 col-xs-8 col-xs-offset-2 col-md-4 ACSM">
                     <div class="ACS1">
                       <h1 class="ACS11">El Massala Co.</h1>
-                      <p class="ACS12">This is some description <blockquote>This is a quote</blockquote></p>
+                      <p class="ACS12">This is some description <blockquote class="ACS12 "> Here is some text to write about the company This is a quote</blockquote></p>
                       </div>
 
                     </div>
@@ -26,14 +26,14 @@ Template Name: About Page
                   </div>
                   
                   <div class="row ACSC">
-                    <div class="col-md-offset-3 col-md-7 ACS2">
+                    <div class="col-md-offset-3 col-xs-offset-2 col-xs-8 col-sm-8 col-sm-offset-2 col-md-7 ACS2">
                       <div class="ACS21">
                         <!-- Vision -->
                         <div class="ACS21H">
                           <div class="col-md-1">
                             <img src="<?php print THEMEROOT;?>/img/About/vision.png" alt="Masalla Vision"> </div> 
                             <div class="col-md-11">
-                              <h4>Vision</h4>
+                              <h4 class="visiontitle">Vision</h4>
                             </div>
                           </div>
                           <h3 class="ACS211">Ease your shop operations with dependable POS Software</h3>
@@ -52,12 +52,12 @@ Template Name: About Page
                     <div class="row ACS33">
                       <a href="<?php echo get_permalink('79');?>"><div class="col-md-offset-4 col-md-2 ACS331">
                         <img src="<?php print THEMEROOT;?>/img/About/products.png" alt="Masalla prodcuts">
-                        <h4>Products</h4>
+                        <h4 class="Hwhite">Products</h4>
                       </div>
                       </a>
                       <a href="<?php echo get_permalink('81');?>"><div class="col-md-2 ACS332">
                         <img src="<?php print THEMEROOT;?>/img/About/partners.png" alt="Masalla prartners">
-                        <h4>Partners</h4>
+                        <h4 class="Hwhite">Partners</h4>
                       </div> 
                       </a>
                     </div>

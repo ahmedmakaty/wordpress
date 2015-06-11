@@ -4,27 +4,27 @@
 <section class="footer " >
   <div class="container-fluid">
     <div class="row ">
-      <div class="col-md-offset-2  col-md-3 col-sm-8 col-sm-offset-3 col-xs-8 col-xs-offset-3  ">
+      <div class="col-md-offset-2  col-md-3 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2  ">
         <h5 class="FS FS1A">
           العنوان الأول
         </h5>
         <p class="col-md-10  ">
           شركة المسلة لتصنيع ملحقات الكابلات ، نستخدم خطوط لوريم ابسوم ، نستخدم خطوط لوريم ابسوم. شركة المسلة لتصنيع ملحقات الكابلات ، نستخدم خطوط لوريم ابسوم ، نستخدم خطوط لوريم ابسوم        </p>
       </div>
-      <div class="col-md-2 col-md-offset-0  FS1A col-xs-8 col-xs-offset-3 col-sm-8 col-sm-offset-3 clearfix">
+      <div class="col-md-2 col-md-offset-0  FS1A col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 clearfix">
         <h5 class="FS">
           العنوان الثاني
         </h5>
-        <ul>
-         <li>
-           <p>رقم الهاتف</p>
-           <p>الإيميل</p>
-           <p>العنوان</p>
+        <ul class="secondfooter clearfix">
+         <li> 
+           <p> <i class="fa fa-phone fa-lg"></i>&nbsp; 01100767010</p>
+           <p> <i class="fa fa-comments-o fa-lg"></i>&nbsp; info@el-massalla.com</p>
+           <p> <i class="fa fa-flag-o  fa-lg"></i>&nbsp; 7 Madfa'iya st. infront of citystars mall </p>
          </li>
        </ul>  
      </div>
-     <div class="row contactResPadding no-guitter">
-     <div  class="col-md-5 col-md-offset-0  col-xs-9 col-xs-offset-3 ">
+     <div class="row  no-guitter">
+     <div  class="col-md-5 col-md-offset-0 contactResPadding  col-xs-12 ">
       <div class="wow bounceInLeft clearfix">
         <div class="contactBg clearfix">
           <div class="ContactPadding clearfix">

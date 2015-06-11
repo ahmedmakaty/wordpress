@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="<?php print THEMEROOT;?>/css/main.css">
     <link rel="stylesheet" href="<?php print THEMEROOT;?>/css/owlcarousel.css">
     <link rel="stylesheet" href="<?php print THEMEROOT;?>/css/owltheme.css">
+    <link rel="stylesheet" href="<?php print THEMEROOT;?>/css/font-awesome.min.css">
     <script src="<?php print THEMEROOT;?>/js/vendor/jquery-1.11.2.min.js"></script>
     <script src="<?php print THEMEROOT;?>/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
@@ -36,13 +37,7 @@
             <nav class="navbar mnav navbar-default navbar-fixed-top" role="navigation">
               <div class="container">
                 <div class="navbar-header">
-
-
-
                   <a class="navbar-brand " href="<?php echo home_url();?>"><img  class="nav-logo img-responsive" src="<?php print THEMEROOT;?>/img/logo21.png"></a>
-
-
-
               </div>
 
 

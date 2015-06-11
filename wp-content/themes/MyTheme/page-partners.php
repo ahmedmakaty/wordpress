@@ -12,7 +12,7 @@ Template Name: Principles Page
            <section class="CS3">
             <div class="container">
               <!-- cs31 -->
-              <div class="CS31 CsLead CsPadding Cscenter row">
+              <div class="CS31 CsLead  CsPadding Cscenter responsivepaddingtop row">
               <?php if(ICL_LANGUAGE_CODE == 'ar') : ?>
                 <h1 class="Hwhite">وكلاء و موزعون</h1>
               </div>

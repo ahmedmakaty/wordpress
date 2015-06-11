@@ -2,6 +2,69 @@
 
 
 
+/*responsive reules */
+
+
+
+
+@media (min-width: 1000px) {
+  .menu-section {
+    display: none;
+  }
+  .bodyresponsivepadding {
+    padding-top: 4%;
+  }
+
+
+}
+@media (max-width: 1000px) {
+  #navbar ul {
+    display: none;
+  }
+  .ACS13{
+  text-align: center;
+}
+
+.contactResPadding{
+  padding-top: 35px;
+}
+
+
+
+}
+
+@media (min-width:1200px){
+  .bodyresponsivepadding {
+    padding-top: 2%;
+  }
+
+}
+@media (max-width: 990px){
+
+.col-md-2.ACS332 {
+   margin-top: 49px; 
+}
+
+}
+@media ( max-width: 768px){
+.responsivepaddingtop{
+  padding-top: 120px !important;
+}
+.ProductStyle{
+  padding-top: 45% !important;}
+
+.ACS13{
+  display:none;
+}
+.ACS .row .ACSC .ACS2 {
+  padding-right: 5% !important;
+}
+}
+
+
+
+
+
 /*arabic fonts*/
 
 @font-face {
@@ -84,7 +147,7 @@ body h2:lang(ar) {
 body h5:lang(ar) {
   font-family: Gess_bold;
   font-size: 1.5em;
-  line-height: 0.45455em;
+  line-height: 1.2em;
   margin-bottom: 3%;
 }
 
@@ -124,7 +187,7 @@ li:lang(ar) {
 
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #113E67;
   text-decoration: initial;
 }
 
@@ -132,9 +195,8 @@ a:focus {
 
 @media (min-width: 992px) {
   .col-md-1:lang(ar), .col-md-2:lang(ar), .col-md-3:lang(ar), .col-md-4:lang(ar), .col-md-5:lang(ar), .col-md-6:lang(ar), .col-md-7:lang(ar), .col-md-8:lang(ar), .col-md-9:lang(ar), .col-md-10:lang(ar), .col-md-11:lang(ar), .col-md-12:lang(ar),.col-xs-1:lang(ar), .col-xs-2:lang(ar), .col-xs-3:lang(ar), .col-xs-4:lang(ar), .col-xs-5:lang(ar), .col-xs-6:lang(ar), .col-xs-7:lang(ar), .col-xs-8:lang(ar), .col-xs-9:lang(ar), .col-xs-10:lang(ar), .col-xs-11:lang(ar), .col-xs-12:lang(ar),.col-sm-1:lang(ar), .col-sm-2:lang(ar), .col-sm-3:lang(ar), .col-sm-4:lang(ar), .col-sm-5:lang(ar), .col-sm-6:lang(ar), .col-sm-7:lang(ar), .col-sm-8:lang(ar), .col-sm-9:lang(ar), .col-sm-10:lang(ar), .col-sm-11:lang(ar), .col-sm-12:lang(ar) {
-
-  
-    float: right;
+    float:right;
+ 
 }
 
    .col-md-offset-[class*='*']:lang(ar){
@@ -346,7 +408,7 @@ body h6 {
 body h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 2.7em;
+  font-size: 2.5em;
   text-transform: uppercase;
   line-height: 0.8955em;
   margin-bottom: 11px;
@@ -510,7 +572,6 @@ a {
   color:rgba(244, 244, 244, 0.85);
 }
 .CS3 {
-  background: url("../img/C_Bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -518,6 +579,7 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background: url("../img/C_Bg.jpg");
 }
 .CS3 .CS31 {
   margin-top: 10%;
@@ -533,8 +595,8 @@ a {
   background-color: #eaeaea;
 }
 .FS {
-  padding-top: 80px;
-  margin-bottom: 30px;
+  padding-top: 52px;
+  margin-bottom: 30px !important;
 }
 .FS .FS1H {
   padding-bottom: 12.5px;
@@ -614,6 +676,7 @@ a {
   margin-left:0px;
   margin-right: 12%;
   font-style: none !important;
+  font-size: 1.2em;
 }
 .ACS .row .ACSC .ACS2 .ACS21 h4 {
   color: #ffffff;
@@ -621,7 +684,7 @@ a {
 }
 .ACS .row .ACSC .ACS2 .ACS21 h3 {
   color: #cccccc;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 .ACS .row .ACSC .ACS2 .ACS21 .ACS21M {
   margin-bottom: 10%;
@@ -775,6 +838,19 @@ a {
   width: 100%;
   display: block;
 }
+.responsivenav ul a:lang(ar){
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  text-decoration: none !important;
+  color: white;
+  font-size: 3em;
+  line-height: 1.5;
+  width: 100%;
+  display: block;
+  font-family: Frutiger_roman !important;
+}
 .responsivenav ul a:hover {
   background-color: rgba(245, 251, 252, 0.92);
 }
@@ -806,40 +882,6 @@ a {
 }
 
 
-
-
-
-@media (min-width: 1000px) {
-  .menu-section {
-    display: none;
-  }
-  .bodyresponsivepadding {
-    padding-top: 4%;
-  }
-  
-
-}
-@media (max-width: 1000px) {
-  #navbar ul {
-    display: none;
-  }
-  .ACS13{
-  text-align: center;
-}
-
-}
-
-@media (min-width:1200px){
-  .bodyresponsivepadding {
-    padding-top: 2%;
-  }
-
-}
-@media ( max-width: 768px){
-
-.ProductStyle{
-  padding-top: 45% !important;}
-}
 
 #lang_sel{
   position:fixed !important;
@@ -937,3 +979,16 @@ ul.col-md-6.col-xs-12.col-sm-12.clearfix {
   padding-left: 15px !important;
   padding-right: 15px !important;
 }
+.secondfooter{
+  direction:ltr;
+  padding-left: 3px !important;
+  float: left;
+
+}
+
+
+#lang_sel ul ul:lang(ar) {
+  width: 92px;
+  border-top: 2px solid #cdcdcd;
+}
+

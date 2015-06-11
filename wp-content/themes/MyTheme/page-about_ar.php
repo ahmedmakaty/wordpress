@@ -11,8 +11,8 @@ Template Name: Arabic About Page
            <section class="ACS">
             <div class="row ">
               <div class="container">
-                <div class="row ACSH">
-                  <div class=" col-md-offset-3 col-md-4 ACSM">
+                <div class="row ACSH responsivepaddingtop">
+                  <div class=" col-md-offset-3 col-sm-offset-2 col-sm-8 col-xs-8 col-xs-offset-2 col-md-4 ACSM">
                     <div class="ACS1">
                       <h1 class="ACS11">شركة المسلة لتصنيع ملحقات الكابلات</h1>
                       <p class="ACS12"><?php the_field('description');?>منذ عام  1986,تعتبر شركة المسلة الشركة الرائدة في السوق المصري فى مجال ملحقات الكبلات. سياسة الشركة هى <blockquote class="ACS12 arbl">جودة فى كل من المنتج و خدمة العملاء</blockquote></p>
@@ -26,7 +26,7 @@ Template Name: Arabic About Page
                   </div>
                   
                   <div class="row ACSC">
-                    <div class="col-md-offset-3 col-md-7 ACS2">
+                    <div class="col-md-offset-3 col-xs-offset-2 col-xs-8 col-sm-8 col-sm-offset-2 col-md-7 ACS2">
                       <div class="ACS21">
                         <!-- Vision -->
                         <div class="ACS21H">

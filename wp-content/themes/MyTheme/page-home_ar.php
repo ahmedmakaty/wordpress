@@ -18,13 +18,13 @@ Template Name: Arabic home Page
     <div class="container">
           <div class="row ">
         
-        <div class="col-md-6   ">
+        <div class="col-md-6 col-sm-8 col-sm-offset-3 col-md-offset-0">
           <div class="wow fadeInDown"><h1 >العنوان الأول</h1>
           <h2 > بعض التفاصيل هنا </h2>
           </div>
           <div class="wow fadeInUp">
           <div class="row liststyle">
-             <ul class="col-md-6">
+            <ul class="col-md-6 col-xs-6 col-sm-6 clearfix">
               <li>• شركة المسلة لتصنيع </li>
               <li>• ملحقات الكابلات شركة المسلة</li>
               <li>• بعض التفاصيل الأخرى هنا</li>
@@ -34,7 +34,7 @@ Template Name: Arabic home Page
               <li>• ملحقات الكابلات شركة المسلة</li>
               <li>• هنا نضع المنتجات</li>
             </ul>
-            <ul class="col-md-6">
+            <ul class="col-md-6 col-xs-6 col-sm-6 clearfix">
               <li>• شركة المسلة لتصنيع </li>
               <li>• ملحقات الكابلات شركة المسلة</li>
               <li>• بعض التفاصيل الأخرى هنا</li>
@@ -48,7 +48,7 @@ Template Name: Arabic home Page
           </div>
         </div>
        </div>
-       <div class="col-md-6 wow fadeInRight">
+       <div class="col-md-6 col-xs-10 col-xs-offset-1 CsPadding col-md-offset-0 col-sm-offset-1 col-sm-10 wow fadeInRight">
           <img class="img-responsive" src="<?php print THEMEROOT;?>/img/Cimage.jpg" alt="el masalla main tools">
          <!--  <p><a class="btn btn-default" href="#" role="button">Lorem Ipsum! &raquo;</a></p> -->
         </div>
@@ -61,7 +61,7 @@ Template Name: Arabic home Page
 
       <div class="row">
     <div class="container">
-        <div class=" col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-3 ">
+        <div class=" col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 ">
           <div class="CS21">
             <h1 class="MS CS32H">
              منتجات شركة المسلة
@@ -74,7 +74,7 @@ Template Name: Arabic home Page
         <div class="container">
          <?php query_posts( array ( 'category_name' => 'manufar', 'posts_per_page' => 4 ) );?>
         <?php if(have_posts()) : ?>
-        <div class="PSCS col-md-offset-2 col-md-8  col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-3">
+        <div class="PSCS col-md-offset-2 col-md-8  col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
                   <div id="owl-demo">
                   <?php while(have_posts()) : the_post(); ?>
 

@@ -4,7 +4,7 @@
  <!-- Prodcuts. per partner page  page  -->
  <div class="row PCS00">
   <div class="container">
-    <div class="row PCS0">
+    <div class="row PCS0 responsivepaddingtop">
       <div class="col-md-offset-4  col-md-6  col-xs-11">
         <h1 class="PCSH"> <?php single_cat_title( '', true ); ;?></h1>
       </div>

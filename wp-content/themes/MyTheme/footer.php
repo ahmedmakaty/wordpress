@@ -4,7 +4,7 @@
 <section class="footer " >
   <div class="container-fluid">
     <div class="row ">
-      <div class="col-md-offset-2 col-md-3 col-sm-8 col-sm-offset-3 col-xs-8 col-xs-offset-3  ">
+      <div class="col-md-offset-2  col-md-3 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2  ">
         <h5 class="FS">
           <?php bloginfo('name');?>
 
@@ -13,20 +13,20 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
         </p>
       </div>
-      <div class="col-md-2 col-md-offset-0  col-xs-8 col-xs-offset-3 col-sm-8 col-sm-offset-3 clearfix">
+        <div class="col-md-2 col-md-offset-0  FS1A col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 clearfix">
         <h5 class="FS">
           Address
         </h5>
         <ul>
          <li>
-           <p>phone</p>
-           <p>email</p>
-           <p>Address</p>
+           <p> <i class="fa fa-phone fa-lg"></i>&nbsp; 01100767010</p>
+           <p> <i class="fa fa-comments-o fa-lg"></i>&nbsp; info@el-massalla.com</p>
+           <p> <i class="fa fa-flag-o  fa-lg"></i>&nbsp; 7 Madfa'iya st. infront of citystars mall </p>
          </li>
        </ul>  
      </div>
      <div class="row contactResPadding no-guitter">
-     <div  class="col-md-5 col-md-offset-0 col-xs-9 col-xs-offset-3 ">
+     <div  class="col-md-5 col-md-offset-0 contactResPadding  col-xs-12 ">
       <div class="wow bounceInRight clearfix">
         <div class="contactBg clearfix">
           <div class="ContactPadding clearfix">

@@ -10,7 +10,7 @@ Template Name: Products Page
 
       <div class="row">
     <div class="container">
-        <div class="col-md-offset-2 col-md-8 col-md-offset-2 ">
+        <div class="col-md-offset-2 col-md-8 col-md-offset-2 responsivepaddingtop ">
           <div class="CS21">
             <h1 class="MS CS32H">
               Manufactureres Of 
@@ -23,7 +23,8 @@ Template Name: Products Page
          <?php query_posts( array ( 'category_name' => 'manufactured', 'posts_per_page' => 4 ) );?>
         </div>
         <?php if(have_posts()) : ?>
-        <div class="PSCS col-md-8">
+                <div class="PSCS col-md-8 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+
                   <div id="owl-demo">
                   <?php while(have_posts()) : the_post(); ?>
 
