@@ -41,7 +41,7 @@ Template Name: Contact Page
         <div class="form-group" id="product" style="display:none;">
           <label for="product_type_select"></label>
           <select class="form-control" name="product_type" id="sel1">
-            <option value="" disabled selected>Select Peoduct type</option>
+            <option value="" disabled selected>Select Product type</option>
             <option>Petrol</option>
             <option>Electric</option>
           </select>

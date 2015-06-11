@@ -40,7 +40,8 @@ Template Name: Arabic Contact Page
         <div class="form-group">
           <div class="col-sm-10">
             <div class="checkbox Hwhite">
-              <label><input type="checkbox" id="checkbox1" />Wanted to ask about our products ?</label>
+            <input type="checkbox" id="checkbox1"/>
+              <label for="checkbox1" style="margin-right:5%;"> اسال عن منتجاتنا</label>
             </div>
           </div>
         </div>
@@ -268,7 +269,7 @@ Template Name: Arabic Contact Page
 
 
 
- <textarea class="form-control" rows="5" id="comment" placeholder="Additional Info or Another product" name="Message"></textarea>
+ <textarea class="form-control" rows="5" id="comment" placeholder="رسالتك عن المنتج" name="Message"></textarea>
  <br />
 
  <div class="div col-md-9 contactbuttoncenter">
